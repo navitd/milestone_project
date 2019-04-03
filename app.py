@@ -25,7 +25,7 @@ def plt_graph(ticker_name=None,start_date=None,end_date=None):
     start_date = request.form['start_date']
     end_date   = request.form['end_date']
     #print(start_date)
-    quandl.ApiConfig.api_key = 'bdNDUXp1kqGLKMoWH9H2'
+    quandl.ApiConfig.api_key = insert a valid key
     #ticker_name="AAPL"
     #start_date="2015-12-31"
     #end_date="2016-12-31"
